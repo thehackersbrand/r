@@ -26,13 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # Development secret key - DO NOT use in production
-SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-dev-key-only-for-development-123456789')
 
-# Debug is always True for development
-DEBUG = True
 
 # Development allowed hosts
-ALLOWED_HOSTS = ['hackversity.onrender.com','localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['hackversity-ai.onrender.com']
 
 
 # Application definition
