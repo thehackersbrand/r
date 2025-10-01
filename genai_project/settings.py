@@ -26,6 +26,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # Development secret key - DO NOT use in production
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-dev-key-only-for-development-123456789')
+
+# Debug is always True for development
+DEBUG = False
 
 
 # Development allowed hosts
