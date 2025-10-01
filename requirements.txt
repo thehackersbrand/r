@@ -36,36 +36,38 @@ certifi==2025.8.3
 # ==========================================
 
 # Production WSGI server
- gunicorn==23.0.0
+gunicorn==23.0.0
 
 # Static file serving for production
- whitenoise==6.11.0
+whitenoise==6.11.0
 
-# PostgreSQL adapter (if using PostgreSQL instead of SQLite)
- psycopg2-binary==2.9.10
+# PostgreSQL adapter (for Render.com database)
+psycopg2-binary==2.9.10
+
+# Database URL parsing
+dj-database-url==2.2.0
 
 # Image processing (if handling image uploads)
- pillow>=11.0.0
+pillow>=11.0.0
 
 # Better form rendering
- django-crispy-forms==2.4
+django-crispy-forms==2.4
+
+# ==========================================
+# Optional Dependencies (uncomment if needed)
+# ==========================================
 
 # Background task processing
- celery>=5.3.0
- redis>=6.4.0
-
-# ==========================================
-# Development Dependencies
-# Uncomment for development environment
-# ==========================================
+# celery>=5.3.0
+# redis>=6.4.0
 
 # Debug toolbar for development
-django-debug-toolbar>=4.0.0
+# django-debug-toolbar>=4.0.0
 
 # Additional management commands
- django-extensions>=3.2.0
+# django-extensions>=3.2.0
 
 # Code formatting and linting
- black>=24.0.0
- flake8>=7.0.0
- pylint>=3.0.0
+# black>=24.0.0
+# flake8>=7.0.0
+# pylint>=3.0.0
