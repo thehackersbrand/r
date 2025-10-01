@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-dev-key-only-for-developme
 DEBUG = True
 
 # Development allowed hosts
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['hackversity.onrender.com','localhost', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
@@ -155,7 +155,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
 # Euron API Configuration
-EURON_API_KEY = os.getenv('EURON_API_KEY')
+EURON_API_KEY = 'euri-94dee66c5f9b41981308651c7985cbf1db0ed7307f498e8e70ccc1da7c84c343'
 
 # Django REST Framework
 REST_FRAMEWORK = {
