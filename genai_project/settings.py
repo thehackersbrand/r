@@ -153,7 +153,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom User Model
-#AUTH_USER_MODEL = 'accounts.CustomUser'
+AUTH_USER_MODEL = 'accounts.CustomUser'
 
 # Euron API Configuration
 EURON_API_KEY = 'euri-94dee66c5f9b41981308651c7985cbf1db0ed7307f498e8e70ccc1da7c84c343'
